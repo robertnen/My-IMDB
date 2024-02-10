@@ -14,7 +14,6 @@ You have to run the main from the IMDB class.
 
 ## Functions
 
-<br>
 |                             Function                            | Regular | Contributor | Admin |
 |:---------------------------------------------------------------:|:-------:|:-----------:|:-----:|
 |                     View production details                     |    x    |      x      |   x   |
