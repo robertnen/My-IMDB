@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class SeriesFrame extends JFrame {
     protected final String title = "My IMDB - Series";
-    protected final ImageIcon icon = new ImageIcon("src/main/java/Assets/images/My_IMDB_icon.png");
+    protected final ImageIcon icon = new ImageIcon("./assets/images/My_IMDB_icon.png");
 
     protected final Color bgColor = new Color(100, 118, 135);
     protected JPanel bgPanel = new JPanel();

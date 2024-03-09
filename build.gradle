@@ -1,0 +1,49 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.9.10'
+    id 'com.github.johnrengelman.shadow' version '7.0.0'
+    id 'application'
+}
+
+group = 'org.example'
+version = 'v.1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'org.example.IMDB'
+}
+
+shadowJar {
+    manifest {
+        attributes(
+                'Main-Class': 'org.example.IMDB'
+        )
+    }
+}
+
+dependencies {
+    implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.7.1'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation "org.reflections:reflections:0.9.12"
+    runtimeOnly 'com.fasterxml.jackson.core:jackson-databind:2.12.7.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}
+compileTestKotlin {
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17

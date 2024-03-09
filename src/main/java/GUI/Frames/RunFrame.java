@@ -10,7 +10,7 @@ public class RunFrame extends JFrame {
     private final int height = 900;
     private JPanel bgPanel = new JPanel();
     private final String title = "My IMDB";
-    private final ImageIcon icon = new ImageIcon("src/main/java/Assets/images/My_IMDB_icon.png");
+    private final ImageIcon icon = new ImageIcon("./assets/images/My_IMDB_icon.png");
 
     private final Color bgColor = new Color(100, 118, 135);
 

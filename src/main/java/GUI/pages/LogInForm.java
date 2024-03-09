@@ -23,7 +23,7 @@ public class LogInForm extends Page {
     public LogInForm(RunFrame frame) {
 
         // at the logo banner
-        ImageIcon logo1 = new ImageIcon("src/main/java/Assets/images/My_IMDB.png");
+        ImageIcon logo1 = new ImageIcon("./assets/images/My_IMDB.png");
         JLabel logo = new JLabel(logo1);
 
         logo.setBounds(500, 50, 600, 240);

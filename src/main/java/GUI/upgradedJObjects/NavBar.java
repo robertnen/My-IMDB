@@ -26,7 +26,7 @@ public class NavBar {
 
         BufferedImage homeImage = null;
         try {
-            homeImage = ImageIO.read(new File("src/main/java/Assets/images/My_IMDB_icon.png"));
+            homeImage = ImageIO.read(new File("./assets/images/My_IMDB_icon.png"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

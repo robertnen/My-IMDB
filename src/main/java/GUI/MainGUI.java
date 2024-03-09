@@ -28,7 +28,7 @@ public class MainGUI {
         frame = new RunFrame();
 
         // start my soundtrack
-        String song = "src/main/java/Assets/song/My_Brick_Breaker_OST.wav";
+        String song = "./assets/song/My_Brick_Breaker_OST.wav";
         String production = "_";
         player.setFile(song);
         player.play(-5.f);

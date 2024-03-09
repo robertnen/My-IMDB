@@ -18,7 +18,7 @@ public class HomePage extends Page{
         yearPanel.setBackground(new Color(218, 232, 252));
         yearPanel.setBorder(BorderFactory.createMatteBorder(2, 2, 2, 2, Color.BLACK));
 
-        ImageIcon yearGIF = new ImageIcon("src/main/java/Assets/gifs/bahoi.gif");
+        ImageIcon yearGIF = new ImageIcon("./assets/gifs/bahoi.gif");
         JLabel yearLabel = new JLabel(yearGIF);
         yearLabel.setBounds(10, 10, 540, 360);
         yearPanel.add(yearLabel);
@@ -50,10 +50,10 @@ public class HomePage extends Page{
 
         scrollPanel.setLayout(new FlowLayout());
 
-        String[] imgPaths = {"src/main/java/Assets/images/bahoi_sare.png",
-                            "src/main/java/Assets/images/telecomanda.png",
-                            "src/main/java/Assets/images/olarit_all_around.png",
-                             "src/main/java/Assets/images/orez_cu_lapte.png"};
+        String[] imgPaths = {"./assets/images/bahoi_sare.png",
+                            "./assets/images/telecomanda.png",
+                            "./assets/images/olarit_all_around.png",
+                             "./assets/images/orez_cu_lapte.png"};
 
         Dimension imgD = new Dimension(160, 200);
         final int imagesNum = 4;
@@ -90,10 +90,10 @@ public class HomePage extends Page{
 
         favoritesPanel.add(newsTitle);
 
-        imgPaths = new String[]{"src/main/java/Assets/images/becali.png",
-                                "src/main/java/Assets/images/wtf_romania.png",
-                                "src/main/java/Assets/images/vadim.png",
-                                "src/main/java/Assets/images/woman.jpg"};
+        imgPaths = new String[]{"./assets/images/becali.png",
+                                "./assets/images/wtf_romania.png",
+                                "./assets/images/vadim.png",
+                                "./assets/images/woman.jpg"};
 
         Dimension newsD = new Dimension(100, 100);
 

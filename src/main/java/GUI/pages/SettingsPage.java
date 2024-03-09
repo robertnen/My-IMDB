@@ -18,7 +18,7 @@ public class SettingsPage extends Page {
         new NavBar(frame, this);
 
         // user avatar
-        ImageIcon userImage = new ImageIcon("src/main/java/Assets/images/user.jpeg");
+        ImageIcon userImage = new ImageIcon("./assets/images/user.jpeg");
         JLabel userAvatar = new JLabel(userImage);
         userAvatar.setBounds(155, 235, 200, 200);
         userAvatar.setBorder(BorderFactory.createMatteBorder(2, 2, 2, 2, Color.BLACK));

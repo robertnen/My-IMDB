@@ -24,14 +24,14 @@ public class IMDB {
     private List<Production> productions = new ArrayList<>();
     private List<Request> requests = new ArrayList<>();
     private List<Object> users = new ArrayList<>();
-    private final String accountsPath = "src/test/resources/testResources/accounts.json";
-    private final String actorsPath = "src/test/resources/testResources/actors.json";
-    private final String productionPath = "src/test/resources/testResources/production.json";
-    private final String requestsPath = "src/test/resources/testResources/requests.json";
-    private final String accountsPathCopy = "src/test/resources/testResources/accountsCopy.json";
-    private final String actorsPathCopy = "src/test/resources/testResources/actorsCopy.json";
-    private final String productionPathCopy = "src/test/resources/testResources/productionCopy.json";
-    private final String requestsPathCopy = "src/test/resources/testResources/requestsCopy.json";
+    private final String accountsPath = "./data/accounts.json";
+    private final String actorsPath = "./data/actors.json";
+    private final String productionPath = "./data/production.json";
+    private final String requestsPath = "./data/requests.json";
+    private final String accountsPathCopy = "./data/accountsCopy.json";
+    private final String actorsPathCopy = "./data/actorsCopy.json";
+    private final String productionPathCopy = "./data/productionCopy.json";
+    private final String requestsPathCopy = "./data/requestsCopy.json";
 
     private IMDB() {}
     private IMDB(List<Actor> actors, List<Production> productions, List<Request> requests, List<Object> users) {
